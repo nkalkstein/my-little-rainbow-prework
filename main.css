@@ -1,5 +1,5 @@
 div {
-  border: 20px solid #000; /* this is short hand for setting 
+  border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
@@ -9,3 +9,11 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+
+<div id="red"> <!-- the grandest grandparent div -->
+ -      <div>		 +      <div id="orange">
+ -        <div>		 +        <div id="yellow">
+ -          <div>		 +          <div id="green">
+ -            <div>		 +            <div id="blue">
+ -              <div>		 +              <div id="indigo">
+ -                <div></div> <!-- the grandest child div -->		 +                <div id="violet"></div> 
